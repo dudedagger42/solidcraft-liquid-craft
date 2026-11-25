@@ -1,4 +1,4 @@
-# Liquid Craft 3.0.0
+# Liquid Craft 3.0.1
 
 ![screenshot](screenshots/showcase-dark.png)
 
@@ -45,16 +45,13 @@ The card shows the values as plain numbers with two decimals.
 - No text colour flip or halo: text does not change colour with the brightness behind it.
   The theme fills were made more transparent so text stays readable on both themes.
 - Light theme only, legibility (`liquid-craft.json`, before -> after): the tab title and app bar
-  labels use `app_bar_text` #2c3340 (was the light base's #e6eaf2, light text on a dark title bar); the ribbon group captions
-  use `text_dim` #3a404c (was the light base's #6e7480); the ribbon `toolbar` fill is #ffffffc0
-  (was #ffffff3e, the SPEC value) and the floating view toolbar's `overlay` fill is #ffffffc0
-  (was #ffffff43). The app bar fill `app_bar` stays #f2f4f858. The dark theme is unchanged.
-  Light theme: the floating view toolbar at the bottom centre is still drawn through the glass pass,
-  because on SolidCraft 0.49.1 the glass panel pass is drawn over that bar's icons and labels when
-  its fill is see-through. Over a busy background its icons and labels do not show. Raising
-  `overlay` (tested up to #ffffffff), `panel` and `timeline` did not change it, so the fill that
-  drives this bar is not one of these keys. The ribbon captions are readable but lighter than the
-  rest of the text.
+  labels use `app_bar_text` #2c3340 (was the light base's #e6eaf2, light text on a dark title bar);
+  the ribbon group captions use `text_dim` #3a404c (was the light base's #6e7480); the ribbon
+  `toolbar` fill is #ffffffc0 (was #ffffff3e, the SPEC value). The floating view toolbar at the
+  bottom centre fades to 45 % when the pointer is away from it, and at that strength its icons and
+  labels are faint over a busy background. It is fully readable when the pointer is on it. To keep
+  it readable all the time, set Preferences > Navigation > When idle to Always visible. The dark
+  theme is unchanged.
 - The clear/accent switch is now the Accent tint slider (0 to 100 %).
 - Glass applies only to panels whose theme fill is see-through. The dimmed backing behind a
   modal dialog keeps the app's plain blur. Nothing is drawn in safe-graphics mode or when the
