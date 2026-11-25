@@ -1,0 +1,62 @@
+{
+  "id": "liquid-craft",
+  "name": "Liquid Craft",
+  "version": "3.0.0",
+  "description": "Glass panels over the model with lens edges. Pick Liquid Craft or Liquid Craft Dark in Preferences > Appearance, turn on the panel backdrop on this card, and set the glass with its sliders.",
+  "updates": {
+    "github": "dudedagger42/solidcraft-liquid-craft"
+  },
+  "capabilities": [
+    "themes@0.1",
+    "shaders@0.2"
+  ],
+  "themes": [
+    {
+      "id": "liquid-craft",
+      "source": "liquid-craft.json"
+    },
+    {
+      "id": "liquid-craft-dark",
+      "source": "liquid-craft-dark.json"
+    }
+  ],
+  "shaders": [
+    {
+      "id": "glass",
+      "name": "Liquid glass",
+      "kind": "panel",
+      "source": "liquid-glass.wgsl",
+      "blur": 24,
+      "settings": [
+        {
+          "id": "blur",
+          "name": "Blur (%)",
+          "min": 0,
+          "max": 200,
+          "default": 85
+        },
+        {
+          "id": "refraction",
+          "name": "Rim bend (%)",
+          "min": 0,
+          "max": 200,
+          "default": 100
+        },
+        {
+          "id": "reach",
+          "name": "Rim reach (%)",
+          "min": 0,
+          "max": 100,
+          "default": 50
+        },
+        {
+          "id": "accent",
+          "name": "Accent tint (%)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        }
+      ]
+    }
+  ]
+}
