@@ -1,8 +1,8 @@
 {
   "id": "liquid-craft",
   "name": "Liquid Craft",
-  "version": "3.0.1",
-  "description": "Glass panels over the model with lens edges. Pick Liquid Craft or Liquid Craft Dark in Preferences > Appearance, turn on the panel backdrop on this card, and set the glass with its sliders.",
+  "version": "3.0.2",
+  "description": "Glass panels over the model with lens edges. Pick Liquid Craft or Liquid Craft Dark in Preferences > Appearance, turn on the panel backdrop on this card, and set the glass with its sliders. To turn the glass off, untick the panel backdrop here; another theme keeps it on.",
   "updates": {
     "github": "dudedagger42/solidcraft-liquid-craft"
   },

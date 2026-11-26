@@ -21,6 +21,9 @@ plugin API (themes@0.1 and shaders@0.2) and needs SolidCraft 0.49.1 or newer.
   The themes appear after the built-in ones while the plugin is on.
 - **Glass:** on the plugin card, turn on "Panel backdrop: Liquid glass". Without it the
   themes draw flat, see-through fills.
+- **Turning it off:** the glass is a setting of the plugin card, not of the theme, so picking
+  another theme keeps it on. To remove it, go to Preferences > Plugins and untick
+  "Panel backdrop: Liquid glass" on the Liquid Craft card (or untick the plugin itself).
 
 ## Settings (the card)
 
