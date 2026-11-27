@@ -3,10 +3,11 @@
   "id": "liquid-craft",
   "name": "Liquid Craft",
   "kind": "plugin",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "licence": "MIT",
   "min_app_version": "0.49.1",
   "summary": "Glass panels for SolidCraft: frosted, lens-edged panes over the 3D view, with light and dark themes.",
+  "description": "WORKSHOP.md",
   "category": "other",
   "tags": [
     "theme",
@@ -18,11 +19,11 @@
   "permissions": [],
   "files": [
     {
-      "asset": "liquid-craft-3.0.4.zip",
+      "asset": "liquid-craft-3.0.5.zip",
       "role": "package"
     },
     {
-      "path": "screenshots/showcase-dark.png",
+      "path": "screenshots/showcase-zoom.png",
       "role": "image"
     }
   ]

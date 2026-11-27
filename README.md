@@ -12,7 +12,7 @@ plugin API (themes@0.1 and shaders@0.2) and needs SolidCraft 0.49.1 or newer.
 ## Install
 
 1. Open Preferences > Plugins.
-2. Click Install plugin... and pick `liquid-craft-3.0.0.zip`.
+2. Click Install plugin... and pick `liquid-craft-3.0.5.zip`.
 3. Turn the plugin on with its check box on the card.
 
 ## Use
