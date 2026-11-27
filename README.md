@@ -1,6 +1,6 @@
-# Liquid Craft 3.0.1
+# Liquid Craft
 
-![screenshot](screenshots/showcase-dark.png)
+![screenshot](https://raw.githubusercontent.com/dudedagger42/solidcraft-liquid-craft/v3.0.4/screenshots/showcase-dark.png)
 
 Glass panels for SolidCraft. Every panel, bar and dialog fill becomes a pane of glass over
 what is behind it (the 3D view): frosted, bent like a lens near the rim, with a specular
